@@ -39,7 +39,7 @@ enum combos {
 //const uint16_t PROGMEM as_combo[] = {MT(MOD_LCTL, KC_A), KC_S, COMBO_END};
 const uint16_t PROGMEM sd_combo[] = {KC_S, KC_D, COMBO_END};
 const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};
-const uint16_t PROGMEM xc_combo[] = {KC_X, KC_C, COMBO_END};
+//const uint16_t PROGMEM xc_combo[] = {KC_X, KC_C, COMBO_END};
 //const uint16_t PROGMEM cv_combo[] = {KC_C, KC_V, COMBO_END};
 
 const uint16_t PROGMEM op_combo[] = {KC_O, KC_P, COMBO_END};
@@ -62,7 +62,7 @@ combo_t key_combos[COMBO_COUNT] = {
   //[AS] = COMBO(as_combo, KC_ENT),
   [SD] = COMBO(sd_combo, KC_BSPC),
   [DF] = COMBO(df_combo, KC_TAB),
-  [XC] = COMBO(xc_combo, KC_MINS),
+  //[XC] = COMBO(xc_combo, KC_MINS),
   //[CV] = COMBO(cv_combo, KC_ENT),
 
   [OP] = COMBO(op_combo, KC_BSLS),
